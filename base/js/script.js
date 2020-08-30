@@ -49,13 +49,26 @@
 
 
 // // });
+// $(function () {
+//   $(".red-box").fadeTo(1000, 0, function () {
+//     $(".green-box").fadeTo(1000, 0, function () {
+//       $(".blue-box").fadeTo(1000, 0);
+//     });
+//   });
+//   // not so nice for clean code.  
+
+
+// });
 $(function () {
-  $(".red-box").fadeTo(1000, 0, function () {
-    $(".green-box").fadeTo(1000, 0, function () {
-      $(".blue-box").fadeTo(1000, 0);
-    });
-  });
-  // not so nice for clean code.  
+  // $("p").css("background-color", "rgba(180,180, 30, 0.8)")
+  // $(".red-box").css("background-color", "rgba(180,180, 30, 0.8)")
+  // $("#list").css("background-color", "rgba(180,180, 30, 0.8)")
+  // $("input[type='text']").css("background-color", "rgba(180,180, 30, 0.8)")
+  // $("h2, p, input").css("background-color", "rgba(180,180, 30, 0.8)")
+  // $("li:last").css("background-color", "rgba(180,180, 30, 0.8)")
+  // $("li:odd").css("background-color", "rgba(180,180, 30, 0.8)")
+
+  $("input:email").css("background-color", "rgba(180, 180, 20, 1")
 
 
-});
+})
