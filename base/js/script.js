@@ -67,8 +67,17 @@ $(function () {
   // $("h2, p, input").css("background-color", "rgba(180,180, 30, 0.8)")
   // $("li:last").css("background-color", "rgba(180,180, 30, 0.8)")
   // $("li:odd").css("background-color", "rgba(180,180, 30, 0.8)")
+  // $("input:email").css("background-color", "rgba(180, 180, 20, 1")
+  // $("#list").find("li").css("background-color", "rgba(180, 180, 20, 0.8")
+  // $("#list").children("li").css("background-color", "rgba(180, 180, 20, 0.8")
+  // $("#list").siblings(":header").css("background-color", "rgba(180, 180, 20, 0.8")
+  // $("#list").prev().css("background-color", "rgba(180, 180, 20, 0.8")
+  // $("#list").next().css("background-color", "rgba(180, 180, 20, 0.8")
+  // $("#list").next().css("background-color", "rgba(180, 180, 20, 0.8")
 
-  $("input:email").css("background-color", "rgba(180, 180, 20, 1")
+  // $("#list").find("li").filter(":even").css("background-color", "rgba(180, 180, 20, 0.8")
+  // $("#li").filter("li").filter(":even").css("background-color", "rgba(180, 180, 20, 0.8")
+
 
 
 })
