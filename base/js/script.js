@@ -60,28 +60,48 @@
 
 // });
 $(function () {
-  $("p").css("background-color", "rgba(180,180, 30, 0.8)")
-  $(".red-box").css("background-color", "rgba(180,180, 30, 0.8)")
-  $("#list").css("background-color", "rgba(180,180, 30, 0.8)")
-  $("input[type='text']").css("background-color", "rgba(180,180, 30, 0.8)")
-  $("h2, p, input").css("background-color", "rgba(180,180, 30, 0.8)")
-  $("li:last").css("background-color", "rgba(180,180, 30, 0.8)")
-  $("li:odd").css("background-color", "rgba(180,180, 30, 0.8)")
-  $("input:email").css("background-color", "rgba(180, 180, 20, 1")
-  $("#list").find("li").css("background-color", "rgba(180, 180, 20, 0.8")
-  $("#list").children("li").css("background-color", "rgba(180, 180, 20, 0.8")
-  $("#list").siblings(":header").css("background-color", "rgba(180, 180, 20, 0.8")
-  $("#list").prev().css("background-color", "rgba(180, 180, 20, 0.8")
-  $("#list").next().css("background-color", "rgba(180, 180, 20, 0.8")
-  $("#list").next().css("background-color", "rgba(180, 180, 20, 0.8")
 
-  $("#list").find("li").filter(":even").css("background-color", "rgba(180, 180, 20, 0.8")
-  $("#li").filter("li").filter(":even").css("background-color", "rgba(180, 180, 20, 0.8")
-  $("li").first().css("background-color", "rgba(180, 180, 20, 0.8")
-  $("li").eq(5).css("background-color", "rgba(180, 180, 20, 0.8")
-  $("li").eq(-2).css("background-color", "rgba(180, 180, 20, 0.8")
 
-  $("li").not(":first").css("background-color", "rgba(180, 180, 20, 0.8")
+
+
+
+
+
+  // $("p").css("background-color", "rgba(180,180, 30, 0.8)")
+  // $(".red-box").css("background-color", "rgba(180,180, 30, 0.8)")
+  // $("#list").css("background-color", "rgba(180,180, 30, 0.8)")
+  // $("input[type='text']").css("background-color", "rgba(180,180, 30, 0.8)")
+  // $("h2, p, input").css("background-color", "rgba(180,180, 30, 0.8)")
+  // $("li:last").css("background-color", "rgba(180,180, 30, 0.8)")
+  // $("li:odd").css("background-color", "rgba(180,180, 30, 0.8)")
+  // $("input:email").css("background-color", "rgba(180, 180, 20, 1")
+  // $("#list").find("li").css("background-color", "rgba(180, 180, 20, 0.8")
+  // $("#list").children("li").css("background-color", "rgba(180, 180, 20, 0.8")
+  // $("#list").siblings(":header").css("background-color", "rgba(180, 180, 20, 0.8")
+  // $("#list").prev().css("background-color", "rgba(180, 180, 20, 0.8")
+  // $("#list").next().css("background-color", "rgba(180, 180, 20, 0.8")
+  // $("#list").next().css("background-color", "rgba(180, 180, 20, 0.8")
+
+  // $("#list").find("li").filter(":even").css("background-color", "rgba(180, 180, 20, 0.8")
+  // $("#li").filter("li").filter(":even").css("background-color", "rgba(180, 180, 20, 0.8")
+  // $("li").first().css("background-color", "rgba(180, 180, 20, 0.8")
+  // $("li").eq(5).css("background-color", "rgba(180, 180, 20, 0.8")
+  // $("li").eq(-2).css("background-color", "rgba(180, 180, 20, 0.8")
+
+  // $("li").not(":first").css("background-color", "rgba(180, 180, 20, 0.8")
+
+
+
+
+
+
+})
+$(function () {
+  // $("ul ul:first").append("<li>I'm gonna be the last subitem</li>");
+  // $("<li>I'm gonna be the last subitem</li>").appendTo($("ul ul:first"));
+  // $("ul ul").prepend("<li>I'm gonna be the first subitem</li>");
+  $("<h4> Nick Tilllinghast<?h4>").prependTo("#content");
+
 
 
 
