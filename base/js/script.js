@@ -137,3 +137,14 @@ $(function () {
   // $("p:first").empty();
   // $(".red-box, .blue-box, .green-box").empty();
 })
+$(function () {
+  // attr(), prop(), val()
+
+  // var specialLink = $("#special-link");
+  // console.log(specialLink.attr("href"))
+  // console.log(specialLink.attr("title"))
+  // specialLink.attr("href", "http://linkedin.com")
+
+  var checkbox = $("input:checkbox");
+  console.log(checkbox.prop("checked"))
+})
