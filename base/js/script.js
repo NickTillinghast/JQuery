@@ -101,8 +101,39 @@ $(function () {
   // $("<li>I'm gonna be the last subitem</li>").appendTo($("ul ul:first"));
   // $("ul ul").prepend("<li>I'm gonna be the first subitem</li>");
   $("<h4> Nick Tilllinghast<?h4>").prependTo("#content");
+  // $(".red-box").after("<div class='red-box' > Another Red box</div>")
+  // $(".blue-box").before("<div class='blue-box' > Another blue box</div>")
 
 
+  // $(".blue-box").before(function () {
+  //   return "<div class='blue-box'> blue 2</div>"
+  // })
+  // $(".blue-box").before($(".red-box"));
+  // $("p").after($("#list"));
 
 
+})
+$(function () {
+
+  // $("li").replaceWith("<li>Replaced.</li>")
+  // $("li").replaceWith(function () {
+  //   return "<li> replaced.jjjj</li>"
+  // })
+  // var firstListItem = $("li:first");
+  // $("p").replaceWith(firstListItem);
+  // $(".red-box, .blue-box").replaceWith("<div class='green-box' > Another green box</div>")
+  // $(".blue-box").replaceWith("<div class='green-box' > Another green box</div>")
+  // $("<div class='green-box' > big green box</div>").replaceAll(".red-box, .blue-box")
+})
+
+
+$(function () {
+  // $("li").remove();
+  // $("form").children().not("input:text, textarea, br").remove();
+  // var detachedListItem = $("li").detach();
+
+  // detach doesn't remove the event handlers and data connected with item. 
+  // $("#content").append(detachedListItem);
+  // $("p:first").empty();
+  // $(".red-box, .blue-box, .green-box").empty();
 })
