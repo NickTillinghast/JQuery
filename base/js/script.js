@@ -59,99 +59,119 @@
 
 
 // });
+// $(function () {
+
+
+
+
+
+
+
+// $("p").css("background-color", "rgba(180,180, 30, 0.8)")
+// $(".red-box").css("background-color", "rgba(180,180, 30, 0.8)")
+// $("#list").css("background-color", "rgba(180,180, 30, 0.8)")
+// $("input[type='text']").css("background-color", "rgba(180,180, 30, 0.8)")
+// $("h2, p, input").css("background-color", "rgba(180,180, 30, 0.8)")
+// $("li:last").css("background-color", "rgba(180,180, 30, 0.8)")
+// $("li:odd").css("background-color", "rgba(180,180, 30, 0.8)")
+// $("input:email").css("background-color", "rgba(180, 180, 20, 1")
+// $("#list").find("li").css("background-color", "rgba(180, 180, 20, 0.8")
+// $("#list").children("li").css("background-color", "rgba(180, 180, 20, 0.8")
+// $("#list").siblings(":header").css("background-color", "rgba(180, 180, 20, 0.8")
+// $("#list").prev().css("background-color", "rgba(180, 180, 20, 0.8")
+// $("#list").next().css("background-color", "rgba(180, 180, 20, 0.8")
+// $("#list").next().css("background-color", "rgba(180, 180, 20, 0.8")
+
+// $("#list").find("li").filter(":even").css("background-color", "rgba(180, 180, 20, 0.8")
+// $("#li").filter("li").filter(":even").css("background-color", "rgba(180, 180, 20, 0.8")
+// $("li").first().css("background-color", "rgba(180, 180, 20, 0.8")
+// $("li").eq(5).css("background-color", "rgba(180, 180, 20, 0.8")
+// $("li").eq(-2).css("background-color", "rgba(180, 180, 20, 0.8")
+
+// $("li").not(":first").css("background-color", "rgba(180, 180, 20, 0.8")
+
+
+
+
+
+
+// })
+// $(function () {
+// $("ul ul:first").append("<li>I'm gonna be the last subitem</li>");
+// $("<li>I'm gonna be the last subitem</li>").appendTo($("ul ul:first"));
+// $("ul ul").prepend("<li>I'm gonna be the first subitem</li>");
+// $("<h4> Nick Tilllinghast<?h4>").prependTo("#content");
+// $(".red-box").after("<div class='red-box' > Another Red box</div>")
+// $(".blue-box").before("<div class='blue-box' > Another blue box</div>")
+
+
+// $(".blue-box").before(function () {
+//   return "<div class='blue-box'> blue 2</div>"
+// })
+// $(".blue-box").before($(".red-box"));
+// $("p").after($("#list"));
+
+
+// })
+// $(function () {
+
+// $("li").replaceWith("<li>Replaced.</li>")
+// $("li").replaceWith(function () {
+//   return "<li> replaced.jjjj</li>"
+// })
+// var firstListItem = $("li:first");
+// $("p").replaceWith(firstListItem);
+// $(".red-box, .blue-box").replaceWith("<div class='green-box' > Another green box</div>")
+// $(".blue-box").replaceWith("<div class='green-box' > Another green box</div>")
+// $("<div class='green-box' > big green box</div>").replaceAll(".red-box, .blue-box")
+// })
+
+
+// $(function () {
+// $("li").remove();
+// $("form").children().not("input:text, textarea, br").remove();
+// var detachedListItem = $("li").detach();
+
+// detach doesn't remove the event handlers and data connected with item. 
+// $("#content").append(detachedListItem);
+// $("p:first").empty();
+// $(".red-box, .blue-box, .green-box").empty();
+// })
+// $(function () {
+// attr(), prop(), val()
+
+// var specialLink = $("#special-link");
+// console.log(specialLink.attr("href"))
+// console.log(specialLink.attr("title"))
+// specialLink.attr("href", "http://linkedin.com")
+
+// var checkbox = $("input:checkbox");
+// console.log(checkbox.prop("checked"))
+
+// var textInput = $("input:text");
+// textInput.val("nick tillinghast")
+// console.log(textInput.val());
+// var rangeInput = $("input[type='range']");
+// console.log(rangeInput.val());
+
+// })
+//=====================image slideshow===========================
 $(function () {
-
-
-
-
-
-
-
-  // $("p").css("background-color", "rgba(180,180, 30, 0.8)")
-  // $(".red-box").css("background-color", "rgba(180,180, 30, 0.8)")
-  // $("#list").css("background-color", "rgba(180,180, 30, 0.8)")
-  // $("input[type='text']").css("background-color", "rgba(180,180, 30, 0.8)")
-  // $("h2, p, input").css("background-color", "rgba(180,180, 30, 0.8)")
-  // $("li:last").css("background-color", "rgba(180,180, 30, 0.8)")
-  // $("li:odd").css("background-color", "rgba(180,180, 30, 0.8)")
-  // $("input:email").css("background-color", "rgba(180, 180, 20, 1")
-  // $("#list").find("li").css("background-color", "rgba(180, 180, 20, 0.8")
-  // $("#list").children("li").css("background-color", "rgba(180, 180, 20, 0.8")
-  // $("#list").siblings(":header").css("background-color", "rgba(180, 180, 20, 0.8")
-  // $("#list").prev().css("background-color", "rgba(180, 180, 20, 0.8")
-  // $("#list").next().css("background-color", "rgba(180, 180, 20, 0.8")
-  // $("#list").next().css("background-color", "rgba(180, 180, 20, 0.8")
-
-  // $("#list").find("li").filter(":even").css("background-color", "rgba(180, 180, 20, 0.8")
-  // $("#li").filter("li").filter(":even").css("background-color", "rgba(180, 180, 20, 0.8")
-  // $("li").first().css("background-color", "rgba(180, 180, 20, 0.8")
-  // $("li").eq(5).css("background-color", "rgba(180, 180, 20, 0.8")
-  // $("li").eq(-2).css("background-color", "rgba(180, 180, 20, 0.8")
-
-  // $("li").not(":first").css("background-color", "rgba(180, 180, 20, 0.8")
-
-
-
-
-
+  var galleryImage = $(".gallery").find("img").first();
+  var images = [
+    "images/laptop-mobile_small.jpg",
+    "images/laptop-on-table_small.jpg",
+    "images/people-office-group-team_small.jpg",
+  ];
+  var i = 0;
+  setInterval(function () {
+    i = (i + 1) % images.length;
+    galleryImage.fadeOut(function () {
+      $(this).attr("src", images[i]);
+      $(this).fadeIn();
+    })
+    console.log(galleryImage.attr("src"));
+  }, 3000);
 
 })
-$(function () {
-  // $("ul ul:first").append("<li>I'm gonna be the last subitem</li>");
-  // $("<li>I'm gonna be the last subitem</li>").appendTo($("ul ul:first"));
-  // $("ul ul").prepend("<li>I'm gonna be the first subitem</li>");
-  $("<h4> Nick Tilllinghast<?h4>").prependTo("#content");
-  // $(".red-box").after("<div class='red-box' > Another Red box</div>")
-  // $(".blue-box").before("<div class='blue-box' > Another blue box</div>")
 
-
-  // $(".blue-box").before(function () {
-  //   return "<div class='blue-box'> blue 2</div>"
-  // })
-  // $(".blue-box").before($(".red-box"));
-  // $("p").after($("#list"));
-
-
-})
-$(function () {
-
-  // $("li").replaceWith("<li>Replaced.</li>")
-  // $("li").replaceWith(function () {
-  //   return "<li> replaced.jjjj</li>"
-  // })
-  // var firstListItem = $("li:first");
-  // $("p").replaceWith(firstListItem);
-  // $(".red-box, .blue-box").replaceWith("<div class='green-box' > Another green box</div>")
-  // $(".blue-box").replaceWith("<div class='green-box' > Another green box</div>")
-  // $("<div class='green-box' > big green box</div>").replaceAll(".red-box, .blue-box")
-})
-
-
-$(function () {
-  // $("li").remove();
-  // $("form").children().not("input:text, textarea, br").remove();
-  // var detachedListItem = $("li").detach();
-
-  // detach doesn't remove the event handlers and data connected with item. 
-  // $("#content").append(detachedListItem);
-  // $("p:first").empty();
-  // $(".red-box, .blue-box, .green-box").empty();
-})
-$(function () {
-  // attr(), prop(), val()
-
-  // var specialLink = $("#special-link");
-  // console.log(specialLink.attr("href"))
-  // console.log(specialLink.attr("title"))
-  // specialLink.attr("href", "http://linkedin.com")
-
-  // var checkbox = $("input:checkbox");
-  // console.log(checkbox.prop("checked"))
-
-  var textInput = $("input:text");
-  textInput.val("nick tillinghast")
-  console.log(textInput.val());
-  var rangeInput = $("input[type='range']");
-  console.log(rangeInput.val());
-
-})
