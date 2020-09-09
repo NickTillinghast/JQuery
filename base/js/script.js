@@ -145,6 +145,13 @@ $(function () {
   // console.log(specialLink.attr("title"))
   // specialLink.attr("href", "http://linkedin.com")
 
-  var checkbox = $("input:checkbox");
-  console.log(checkbox.prop("checked"))
+  // var checkbox = $("input:checkbox");
+  // console.log(checkbox.prop("checked"))
+
+  var textInput = $("input:text");
+  textInput.val("nick tillinghast")
+  console.log(textInput.val());
+  var rangeInput = $("input[type='range']");
+  console.log(rangeInput.val());
+
 })
